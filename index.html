@@ -7,9 +7,9 @@
     <link href="./styles/output.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b6d1c08c2a.js" crossorigin="anonymous"></script>
   </head>
-  <body>
+  <body class="max-w-screen-xl mx-auto flex flex-col font-display gap-32">
     <!-- banner section -->
-    <header class="max-w-screen-xl mx-auto mt-16 font-display">
+    <header class="mt-16">
       <div class="flex justify-between gap-3">
         <div class="flex flex-col gap-8 items-start">
           <span class="text-6xl font-extrabold text-gray-900 leading-20"
@@ -35,38 +35,79 @@
         </div>
       </div>
     </header>
-    <main>
-      <!-- featured section -->
-      <section class="max-w-screen-xl mt-32 mx-auto font-display">
-        <div class="flex flex-col items-center gap-12">
-          <h2 class="text-4xl text-gray-800 font-bold">Our Featured Products</h2>
-          <p class="text-center text-gray-500 text-lg font-medium w-5/6 leading-6">
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-          </p>
-          <div class="flex gap-6">
-            <div class="flex flex-col gap-4 items-center rounded-xl bg-gradient-to-b from-gray-200 to-white">
-              <img src="./images/tea-1.png" alt="" class="w-32 h-53 mt-8 mx-17" />
-              <p class="text-center text-2xl text-gray-800 font-bold mt-2">Milk Tea</p>
-              <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+
+    <!-- featured section -->
+    <section>
+      <div class="flex flex-col items-center gap-12">
+        <h2 class="text-4xl text-gray-800 font-bold">Our Featured Products</h2>
+        <p class="text-center text-gray-500 text-lg font-medium w-5/6 leading-6">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+        </p>
+        <div class="flex gap-6">
+          <div class="flex flex-col gap-4 items-center rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+            <img src="./images/tea-1.png" alt="" class="w-32 h-53 mt-8 mx-17" />
+            <p class="text-center text-2xl text-gray-800 font-bold mt-2">Milk Tea</p>
+            <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+          </div>
+          <div class="flex flex-col gap-4 items-center rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+            <img src="./images/tea-2.png" alt="" class="w-32 h-53 mt-8 mx-17" />
+            <p class="text-center text-2xl text-gray-800 font-bold mt-2">Black Tea</p>
+            <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+          </div>
+          <div class="flex flex-col gap-4 items-center rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+            <img src="./images/tea-3.png" alt="" class="w-32 h-53 mt-8 mx-17" />
+            <p class="text-center text-2xl text-gray-800 font-bold mt-2">Lemon Tea</p>
+            <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+          </div>
+          <div class="flex flex-col gap-4 items-center rounded-xl shadow-md bg-gradient-to-b from-gray-200 to-white">
+            <img src="./images/tea-4.png" alt="" class="w-32 h-53 mt-8 mx-17" />
+            <p class="text-center text-2xl text-gray-800 font-bold mt-2">Gree Tea</p>
+            <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- presentation section -->
+    <section class="border">
+      <div class="flex justify-between items-center gap-12">
+        <div class="grid grid-cols-2">
+          <div class="grid grid-cols-2 grid-rows-3">
+            <div class="border h-32 w-40 bg-red-300 rounded-xl"></div>
+            <div class="bg-orange-400 rounded-xl row-span-2">
+              <img src="./images/fresh-1.png" alt="" />
             </div>
-            <div class="flex flex-col gap-4 items-center rounded-xl bg-gradient-to-b from-gray-200 to-white">
-              <img src="./images/tea-2.png" alt="" class="w-32 h-53 mt-8 mx-17" />
-              <p class="text-center text-2xl text-gray-800 font-bold mt-2">Black Tea</p>
-              <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+            <div class="bg-yellow-400 rounded-xl row-span-2">
+              <img src="./images/fresh-2.png" alt="" />
             </div>
-            <div class="flex flex-col gap-4 items-center rounded-xl bg-gradient-to-b from-gray-200 to-white">
-              <img src="./images/tea-3.png" alt="" class="w-32 h-53 mt-8 mx-17" />
-              <p class="text-center text-2xl text-gray-800 font-bold mt-2">Lemon Tea</p>
-              <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+            <div class="border h-32 w-40 bg-red-300 rounded-xl"></div>
+          </div>
+          <div class="flex flex-col gap-5">
+            <h3 class="text-4xl text-gray-800 font-bold">
+              Great Tea, Freshly <br />
+              Presented
+            </h3>
+            <p class="text-gray-500 text-lg font-medium leading-6">
+              The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers because
+              of good words of mouth and unique customized service orginated from Taiwan.
+            </p>
+            <div class="flex flex-col gap-2">
+              <span class="text-xl text-gray-800 font-bold">Unique Taste</span>
+              <p class="text-gray-500 text-lg font-medium leading-6">
+                A Unique and different style from other teapots gives a <br />
+                luxurious and minimalist impression
+              </p>
             </div>
-            <div class="flex flex-col gap-4 items-center rounded-xl bg-gradient-to-b from-gray-200 to-white">
-              <img src="./images/tea-4.png" alt="" class="w-32 h-53 mt-8 mx-17" />
-              <p class="text-center text-2xl text-gray-800 font-bold mt-2">Gree Tea</p>
-              <span class="text-center text-lg text-gray-500 font-medium mt-2 mx-8 mb-8">Creamer could be replaced by fresh milk</span>
+            <div class="flex flex-col gap-2">
+              <span class="text-xl text-gray-800 font-bold">Premium Quality</span>
+              <p class="text-gray-500 text-lg font-medium leading-6">
+                Premium Quality that makes tea more <br />
+                elegant and more durable when you use it.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+    </section>
   </body>
 </html>
